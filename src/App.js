@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import ReactDOM from "react-dom";
-import Balance from "./component/Balance"
-import Income from "./component/Income"
-import Transaction from "./component/Transaction"
-import AddTransition from "./component/AddTransaction"
+import Balance from "./component/Balance";
+import Income from "./component/Income";
+import Transaction from "./component/Transaction";
+import AddTransition from "./component/AddTransaction";
 
 const App = () => {
   return (
