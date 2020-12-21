@@ -1,6 +1,14 @@
-import React from "react";
+import React, {useContext} from "react";
+import {GlobalContext} from '../context/GlobalState';
 
 const Balance = () => {
+  const { transactions } = useContext(GlobalContext);
+
+  const amount = transactions.map(transaction => 
+    transaction.amount
+  )
+  
+
   return (
     <div>
       <h4>Balance</h4>
