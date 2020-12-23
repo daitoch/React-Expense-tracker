@@ -10,7 +10,7 @@ const transaction = () => {
       <h3>History</h3>
       <ul id="list" className="list">
         {transactions.map((trans) => (
-          <Transaction transaction={trans} />
+          <Transaction key={trans.id} transaction={trans} />
         ))}
       </ul>
     </div>
